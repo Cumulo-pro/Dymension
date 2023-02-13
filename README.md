@@ -1,5 +1,5 @@
 # <img src="https://user-images.githubusercontent.com/2853158/218585930-6ce4ae15-319e-48ff-b6a2-089a9c5243ff.png" width="150" alt="Dymension">
-Dymension is the home of easy-to-deploy, ultra-fast Apps-chain, called RollApps. A Cosmos PoS SDK blockchain that uses the Tendermint Core state replication model for networking and consensus building
+
  <h3>📌 Overview</h3>
 <p><span class="color">Dymension</span>  is a home for easily deployable and lightning fast app-chains, called RollApps, a network of modular blockchains, referred to as "RollApps", with the Dymension Hub at its core. The Dymension Hub is solely responsible for consensus and settlement, making it a modular blockchain.</p>
 
