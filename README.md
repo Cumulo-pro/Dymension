@@ -9,3 +9,28 @@ Dymension is the home of easy-to-deploy, ultra-fast Apps-chain, called RollApps.
 
 <p>Chain ID: <span class="color">35-C</span></p>
 <p>Version: <span class="color">v0.2.0-beta</span></p>
+<h3>🌐 Useful links</h3>
+<ul>
+  <li> Website: <a href="https://dymension.xyz/">dymension.xyz/</a></li>
+  <li> Dymension documentation: <a href="https://docs.dymension.xyz/">docs.dymension.xyz/</a></li>
+  <li> Resources: <a href="https://github.com/dymensionxyz">github.com/dymensionxyz</a></li>
+</ul>
+<h4>Social media:</h4>
+<ul>
+  <li>Twitter: <a href="https://twitter.com/dymensionXYZ">@dymensionXYZ</a></li>
+  <li>Telegram: <a href="https://t.me/dymensionXYZ">t.me/dymensionXYZ</a></li>
+  <li>Discord: <a href="https://discord.gg/dymension">discord.gg/dymension</a></li>
+  <li>Medium: <a href="https://medium.com/@dymensionXYZ">medium.com/@dymensionXYZ</a></li>
+</ul>
+<h4>Explorers:</h4>
+<ul>
+  <li><a href="https://explorer.kjnodes.com/dymension-testnet">https://explorer.kjnodes.com/dymension-testnet</a></li>
+  
+</ul>
+<h3>⚙️Hardware requirements</h3>
+<ul>
+  <li> Memory: 16 GB RAM  </li>
+  <li>CPU: 4-Core  </li>
+  <li> Disk: 500 GB of storage SSD  </li>
+  <li>Bandwidth: 100mbps</li>
+</ul>	
