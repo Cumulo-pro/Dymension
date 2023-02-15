@@ -1,6 +1,6 @@
 # <img src="https://user-images.githubusercontent.com/2853158/218585930-6ce4ae15-319e-48ff-b6a2-089a9c5243ff.png" width="150" alt="Dymension">
 <hr>
-<a href=""><img width="150" alt="basic" src="https://user-images.githubusercontent.com/2853158/219196738-6f73f508-4239-4aa9-a3d4-4180fb3a56d9.PNG"></a>
+<a href="https://github.com/Cumulo-pro/Dymension/wiki/Basic-tools-for-a-validator-node-in-Dymension"><img width="150" alt="basic" src="https://user-images.githubusercontent.com/2853158/219196738-6f73f508-4239-4aa9-a3d4-4180fb3a56d9.PNG"></a>
 
 
  <h3>📌 Overview</h3>
