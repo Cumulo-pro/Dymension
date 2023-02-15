@@ -1,8 +1,9 @@
 # <img src="https://user-images.githubusercontent.com/2853158/218585930-6ce4ae15-319e-48ff-b6a2-089a9c5243ff.png" width="150" alt="Dymension">
+
+
+<h3><a href="https://github.com/Cumulo-pro/Dymension/wiki/Basic-tools-for-a-validator-node-in-Dymension"> Basic Tools</a>  |  End Points</h3>
+
 <hr>
-<a href="https://github.com/Cumulo-pro/Dymension/wiki/Basic-tools-for-a-validator-node-in-Dymension"><img width="150" alt="basic" src="https://user-images.githubusercontent.com/2853158/219196738-6f73f508-4239-4aa9-a3d4-4180fb3a56d9.PNG"></a>
-
-
  <h3>📌 Overview</h3>
 <p><span class="color">Dymension</span>  is a home for easily deployable and lightning fast app-chains, called RollApps, a network of modular blockchains, referred to as "RollApps", with the Dymension Hub at its core. The Dymension Hub is solely responsible for consensus and settlement, making it a modular blockchain.</p>
 
