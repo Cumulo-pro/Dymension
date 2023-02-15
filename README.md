@@ -24,7 +24,10 @@
 </ul>
 <h4>Explorers:</h4>
 <ul>
-  <li><a href="https://explorer.kjnodes.com/dymension-testnet">https://explorer.kjnodes.com/dymension-testnet</a></li>
+ <li><a href="https://explorer.kjnodes.com/dymension-testnet">https://explorer.kjnodes.com/dymension-testnet</a></li>
+  <li><a href="https://dymension.explorers.guru/">https://dymension.explorers.guru/</a></li>
+  <li><a href="https://explorer.silknodes.io/dymension">https://explorer.silknodes.io/dymension</a></li>
+  <li><a href="https://explorer.stavr.tech/dymension-testnet">https://explorer.stavr.tech/dymension-testnet</a></li>
   
 </ul>
 <h3>⚙️Hardware requirements</h3>
