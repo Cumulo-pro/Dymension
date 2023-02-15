@@ -1,7 +1,7 @@
 # <img src="https://user-images.githubusercontent.com/2853158/218585930-6ce4ae15-319e-48ff-b6a2-089a9c5243ff.png" width="150" alt="Dymension">
 
 
-<h3><a href="https://github.com/Cumulo-pro/Dymension/wiki/Basic-tools-for-a-validator-node-in-Dymension"> Basic Tools</a>  | <a href=""> Public Endpoints</a> </h3>
+<h3><a href="https://github.com/Cumulo-pro/Dymension/wiki/Basic-tools-for-a-validator-node-in-Dymension"> Basic Tools</a>  | <a href="https://github.com/Cumulo-pro/Dymension/wiki/Validator-Services:-Public-Endpoints"> Public Endpoints</a> </h3>
 
 <hr>
  <h3>📌 Overview</h3>
