@@ -32,7 +32,14 @@
   <li><a href="https://dymension.explorers.guru/">https://dymension.explorers.guru/</a></li>
   <li><a href="https://explorer.silknodes.io/dymension">https://explorer.silknodes.io/dymension</a></li>
   <li><a href="https://explorer.stavr.tech/dymension-testnet">https://explorer.stavr.tech/dymension-testnet</a></li>
-  
+  <li><a href="https://explorer.nodestake.top/dymension-testnet">https://explorer.nodestake.top/dymension-testnet</a></li>
+  <li><a href="https://exp.utsa.tech/dymension-test/">https://exp.utsa.tech/dymension-test</a></li>
+  <li><a href="https://explorer.secardnode.com/dymension%20c-35">https://explorer.secardnode.com/dymension%20c-35</a></li>
+  <li><a href="https://dymension.explorers.guru/">https://dymension.explorers.guru</a></li>
+  <li><a href="https://exp.nodeist.net/t-dymension/"> https://exp.nodeist.net/t-dymension</a></li>
+  <li><a href="https://explorer.ppnv.space/dymension">https://explorer.ppnv.space/dymension</a></li>
+  <li><a href="https://explorer.indonode.net/dymension-testnet/staking">https://explorer.indonode.net/dymension-testnet/staking</a></li>
+   <li><a href="https://explorers.yeksin.net/dymension-testnet">https://explorers.yeksin.net/dymension-testnet</a></li> 
 </ul>
 <h3>⚙️Hardware requirements</h3>
 <ul>
