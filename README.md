@@ -29,7 +29,7 @@
   <li>Discord: <a href="https://discord.gg/dymension">discord.gg/dymension</a></li>
   <li>Medium: <a href="https://medium.com/@dymensionXYZ">medium.com/@dymensionXYZ</a></li>
 </ul>
-<h4>Explorers:</h4>
+<h4>Froopyland Explorers:</h4>
 <ul>
  <li><a href="https://explorer.kjnodes.com/dymension-testnet">https://explorer.kjnodes.com/dymension-testnet</a></li>
   <li><a href="https://dymension.explorers.guru/">https://dymension.explorers.guru/</a></li>
