@@ -1,4 +1,5 @@
-# <img src="https://user-images.githubusercontent.com/2853158/218585930-6ce4ae15-319e-48ff-b6a2-089a9c5243ff.png" width="150" alt="Dymension">
+# ![image](https://github.com/Cumulo-pro/Dymension/assets/2853158/975e4e93-2477-4152-a51e-1019c420e7c8)
+
 
 
 <h3><a href="https://github.com/Cumulo-pro/Dymension/wiki/Basic-tools-for-a-validator-node-in-Dymension"> Basic Tools</a>  | <a href="https://github.com/Cumulo-pro/Dymension/wiki/Validator-Services:-Public-Endpoints"> Public Endpoints</a> | <a href="https://medium.com/cumulo-pro/dymension-portal-user-guide-e6f2e8eadee0">Dymension Portal, User Guide</a>
