@@ -107,11 +107,11 @@ Value: average block time in seconds in the Celestia consensus system
 
 ## Consensus Height  
 
-**celestia_consensus_height**  
+**cometbft_consensus_height**  
 
-Current block height in the Celestia consensus system. This metric provides information on the progress of the blockchain in terms of confirmed blocks. It is a fundamental metric for monitoring the status and activity of the network, as it reflects where the consensus is in the blockchain at any given point in time.  
+Current block height in the Dymension consensus system. This metric provides information on the progress of the blockchain in terms of confirmed blocks. It is a fundamental metric for monitoring the status and activity of the network, as it reflects where the consensus is in the blockchain at any given point in time.  
 
-Value: numeric value representing the current height of the block in the Celestia consensus system
+Value: numeric value representing the current height of the block in the Dymension consensus system
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/049da3ad-0c28-4bdf-bdf2-dfbb2858685f)
 
@@ -167,11 +167,11 @@ Value: number of validators who did not sign in the Celestia consensus system
 
 ##  Total bonded tokens  
 
-**celestia_consensus_validators_power**  
+**cometbft_consensus_validators_power**  
 
-A measure indicating the total combined power of all active validators in the Celestia consensus system. The power of validators refers to their collective influence on the consensus process and can be determined by several factors, such as the amount of participation in the network, the reputation of the validator and other criteria set by the consensus protocol. This metric provides an overview of the accumulated power of validators in the network at a given time, which can be useful for assessing the security and robustness of the consensus system.
+A measure indicating the total combined power of all active validators in the Dymension consensus system. The power of validators refers to their collective influence on the consensus process and can be determined by several factors, such as the amount of participation in the network, the reputation of the validator and other criteria set by the consensus protocol. This metric provides an overview of the accumulated power of validators in the network at a given time, which can be useful for assessing the security and robustness of the consensus system.
 
-Value: number representing the total power of all validators in the Celestia consensus system.
+Value: number representing the total power of all validators in the Dymension consensus system.
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/de94b3c0-55d8-43a9-be37-cbe1ef890830)
 
