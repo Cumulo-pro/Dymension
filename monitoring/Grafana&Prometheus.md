@@ -31,7 +31,7 @@ If everything went well, we will be able to see the Prometheus results of our no
 
 ```http://(ip node dymension): 26660```
 
-![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/d75f2c4c-0d9f-4170-ad9e-5c0e3199a9a8)
+![image](https://github.com/Cumulo-pro/Dymension/assets/2853158/3e139cf0-4a2f-4e93-89de-52b1721ca404)
 
 ____________________________________________________________________________________________________________
 
