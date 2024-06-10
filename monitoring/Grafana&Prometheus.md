@@ -22,7 +22,7 @@ ________________________________________________________________________________
 ✔️ Specify your listening port (26660) and be sure to open it in your Firewall.
 ✔️ Change namespace to the value: cometbft  
 
-![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/7e0b3b15-d05b-486c-a8c3-907c6e0973c8)
+![image](https://github.com/Cumulo-pro/Dymension/assets/2853158/6614b6b8-34ca-4fd2-a14d-6514c613b592)
 
 NOTE: It is not recommended that you run Prometheus on the same server as a validator because you may lose blocks due to competing system resources.
 
