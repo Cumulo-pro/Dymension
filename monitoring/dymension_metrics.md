@@ -84,27 +84,6 @@ Value: numeric value indicating the nodes connected as peers
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/52b14295-e199-41fb-abe8-1d65dc64092f)
 
-## Height  Consensus Monitoring  
-
-**celestia_consensus_start_height**  
-
-Block height from which consensus-related metrics began to be recorded in the Celestia consensus system. This metric provides information about the reference point from which consensus related data is being collected and analysed in the network. The numerical value represents this starting height.  
-
-Value: numeric value indicating the height from which metrics started in the Celestia consensus system
-
-![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/e7698318-f927-467b-9989-b2ddf9e8327b)
-
-
-## Block time  
-
-**celestia_consensus_block_time_seconds**  
-
-Average time between the creation of consecutive blocks in the Celestia consensus system, expressed in seconds. This metric is critical for assessing the efficiency and health of the network, as a lower block time may indicate a faster and more responsive network, while a higher block time may indicate possible congestion problems or slowness in the consensus process.
-
-Value: average block time in seconds in the Celestia consensus system
-
-![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/52f36a64-b33a-4b13-852c-932e6abb2337)
-
 ## Consensus Height  
 
 **cometbft_consensus_height**  
@@ -137,11 +116,11 @@ Value: Numeric value representing the number of transactions included in the las
 
 ## Total txs  
 
-**celestia_consensus_total_txs** 
+**cometbft_consensus_total_txs** 
 
-Total number of transactions processed in the Celestia consensus system since inception. This metric is essential to understand the cumulative activity of the network and the total volume of transactions completed. Tracking the total number of transactions can provide insight into the growth and adoption of the network over time.
+Total number of transactions processed in the Dymension consensus system since inception. This metric is essential to understand the cumulative activity of the network and the total volume of transactions completed. Tracking the total number of transactions can provide insight into the growth and adoption of the network over time.
 
-Value: a numeric value representing the total number of transactions processed so far in the Celestia consensus system
+Value: a numeric value representing the total number of transactions processed so far in the Dymension consensus system
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/0d83c2b8-bc2e-44d9-9504-261df31d5d96)
 
@@ -157,11 +136,11 @@ Value: numeric value representing the total power of the missing validators in t
 
 ## Nº Validators missing blocks 
 
-**celestia_consensus_missing_validators** 
+**cometbft_consensus_missing_validators** 
 
 Validator signatures are essential to validate and ensure the integrity of blocks on the blockchain. This metric can provide information on how many validators are not actively participating in the consensus process at any given time. A low or zero value is desirable, as it suggests high participation and cooperation of validators in the network. 
 
-Value: number of validators who did not sign in the Celestia consensus system
+Value: number of validators who did not sign in the Dymension consensus system
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/41b993fc-a560-4c6c-a426-c35be74d82f7)
 
@@ -255,27 +234,6 @@ Value: number of transactions pending confirmation that have not yet been includ
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/a2b4bd1e-18c2-4ce1-ba4e-b8ba02636942)
 
-
-##  Duplicate Transactions in Mempool  
-
-**celestia_mempool_already_seen_txs** 
-
-Number of transactions that have entered the mempool in the Celestia system, but were already present in the mempool at the time. Essentially, these transactions are not new, as they have been observed before and are kept in the mempool. This can be useful in understanding the efficiency of handling duplicate transactions in the system. 
-
-Value: number of transactions already present in the mempool 
-
-![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/616bb9c8-2de9-4e8e-9072-129375d2ad67)
-
-## Mempool Size Bytes  
-
-**celestia_mempool_size_bytes**
-
-Total size of the mempool in bytes in the Celestia system. The mempool stores transactions pending processing before they are included in a block and added to the blockchain. A larger mempool may indicate high transaction activity or network congestion, while a smaller mempool may indicate lower activity or transaction processing efficiency.
-
-Value: total mempool size in bytes
-
-![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/85271cd9-4e6d-42ab-8cb1-174bdec5d4b8)
-
 ## Mempool tx Size Bytes Sum 
 
 **cometbft_mempool_tx_size_bytes_sum**
@@ -286,16 +244,6 @@ Value: total sum of the size of all transactions in bytes in the mempool
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/70763bef-023c-4692-a104-8895c112380a)
 
-## Txs evicted mempool 
-
-**celestia_mempool_evicted_txs**
-
-Number of transactions expelled from the mempool because they have reached the end of their useful lifetime
-
-Value: number of transactions ejected from the mempool due to reaching the time to live (TTL)
-
-![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/f0296d0d-af49-4eb8-aea9-afef78953119)
-
 ## Txs failed mempool
 
 **cometbft_mempool_failed_txs** 
@@ -305,16 +253,6 @@ This metric indicates how many transactions have failed to be added ("added") to
 Value: number of transactions that have failed in the mempool. 
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/306ff534-2171-47ea-a214-b1e31b44e2d7)
-
-## Nº Revisions in the Mempool 
-
-**celestia_mempool_recheck_times**
-
-Indicates how many times transactions have been reviewed again in the mempool before being included in a block or ejected.
-
-Value: number of times transactions are reviewed again in the mempool.
-
-![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/86faa4b5-0d5b-40e1-ac38-4dd531a16544)
 
 ## Process CPU Seconds Total
 
