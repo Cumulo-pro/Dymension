@@ -66,9 +66,9 @@ Value: numeric value indicating the last height signed by the validator or No va
 
 ## Node Voting Power  
 
-*celestia_consensus_validator_power*  
+*cometbft_consensus_validator_power*  
 
-Voting power of a specific validator in the Celestia consensus system.  
+Voting power of a specific validator in the Dymension consensus system.  
 
 Value: numeric value in tokens representing voting power
 
