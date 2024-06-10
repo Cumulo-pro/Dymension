@@ -217,9 +217,9 @@ Value: Histogram recording the time between consecutive blocks in seconds in the
 
 ##  Number of block parts received  
 
-**celestia_consensus_block_gossip_parts_received** 
+**cometbft_consensus_block_gossip_parts_received** 
 
-This metric counts the number of block parts received by a node in the Celestia system through gossip messages. Each share may or may not be relevant to the block that the node is currently collecting, and this information is recorded with the matches_current tag. This can be useful to monitor the amount of data the node is receiving during the block gathering process and to understand whether the received parties are relevant to the current block.
+This metric counts the number of block parts received by a node in the Dymension system through gossip messages. Each share may or may not be relevant to the block that the node is currently collecting, and this information is recorded with the matches_current tag. This can be useful to monitor the amount of data the node is receiving during the block gathering process and to understand whether the received parties are relevant to the current block.
 
 Value: number of block parts received by the node
 
@@ -227,27 +227,27 @@ Value: number of block parts received by the node
 
 ##  Block Interval Seconds Sum
 
-**celestia_consensus_block_interval_seconds_sum**
+**cometbft_consensus_block_interval_seconds_sum**
 
-This metric represents the sum total of the time elapsed between consecutive blocks in the Celestia system, measured in seconds. It provides a cumulative view of the time spent between the production of each pair of successive blocks. A higher value could indicate a slowdown in block production or longer intervals between blocks.
+This metric represents the sum total of the time elapsed between consecutive blocks in the Dymension system, measured in seconds. It provides a cumulative view of the time spent between the production of each pair of successive blocks. A higher value could indicate a slowdown in block production or longer intervals between blocks.
 
-Value: time between consecutive blocks in the Celestia system, measured in seconds
+Value: time between consecutive blocks in the Dymension system, measured in seconds
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/daf51068-0f50-4a35-a6f4-f00921ae1e87)
 
 ##  Block Interval Seconds Count  
 
-**celestia_consensus_block_interval_seconds_count**
+**cometbft_consensus_block_interval_seconds_count**
 
-Total number of times a time interval between blocks has been observed in the Celestia system. It provides a measure of how often blocks are produced in the network. A higher count may indicate high block generation activity, while a low count may indicate block generation problems or long intervals between blocks.
+Total number of times a time interval between blocks has been observed in the Dymension system. It provides a measure of how often blocks are produced in the network. A higher count may indicate high block generation activity, while a low count may indicate block generation problems or long intervals between blocks.
 
-Value: total number of times a time interval between blocks has been observed in the Celestia system
+Value: total number of times a time interval between blocks has been observed in the Dymension system
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/4da6a869-1fd1-4a23-a018-06b987c2ba59)
 
 ##  Mempool size 
 
-**celestia_mempool_size** 
+**cometbft_mempool_size** 
 
 Shows how many transactions are currently pending confirmation in the mempool, i.e. how many transactions are waiting to be included in a block.
 
@@ -278,9 +278,9 @@ Value: total mempool size in bytes
 
 ## Mempool tx Size Bytes Sum 
 
-**celestia_mempool_tx_size_bytes_sum**
+**cometbft_mempool_tx_size_bytes_sum**
 
-The sum total of the size of all transactions in bytes present in the Celestia system mempool. It provides a measure of the total volume of transaction data pending processing on the network. A larger transaction size may indicate complex transactions or transactions with a large amount of attached data. 
+The sum total of the size of all transactions in bytes present in the Dymension system mempool. It provides a measure of the total volume of transaction data pending processing on the network. A larger transaction size may indicate complex transactions or transactions with a large amount of attached data. 
 
 Value: total sum of the size of all transactions in bytes in the mempool
 
@@ -298,7 +298,7 @@ Value: number of transactions ejected from the mempool due to reaching the time 
 
 ## Txs failed mempool
 
-**celestia_mempool_failed_txs** 
+**cometbft_mempool_failed_txs** 
 
 This metric indicates how many transactions have failed to be added ("added") to the mempool and how many have failed to be rechecked.
 
