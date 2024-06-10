@@ -124,13 +124,13 @@ If Prometheus is running successfully, you should have a status screen that look
 
 Now we can access the Prometheus interface by accessing the ip of the server where we have installed it:
 **(ip node Prometheus):9090/status**    
-![image](https://github.com/Cumulo-pro/Dymension/assets/2853158/02204ec3-9523-44d7-87bd-c7d67fddf11c)
+![image](https://github.com/Cumulo-pro/Dymension/assets/2853158/5ea61dd3-7fdd-4661-9ba1-7306d93607f6)
 
 You can start querying Prometheus in the Graph section, using the Dymension metrics functions, which can be found here:
 [Grafana Consensus Metrics](https://github.com/Cumulo-pro/Celestia-monitoring/blob/main/grafana_consensus%20/grafana_consensus_metrics.md)
 
 **(ip nodo Prometheus):9090/graph**   
-![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/b7679564-e665-481d-9af5-1e1ac20a0f64)
+![image](https://github.com/Cumulo-pro/Dymension/assets/2853158/02204ec3-9523-44d7-87bd-c7d67fddf11c)
   
 Congratulations! You now have a running Prometheus server. We'll come back to it for additional configuration.
 
