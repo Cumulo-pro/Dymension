@@ -117,11 +117,11 @@ Value: numeric value representing the current height of the block in the Dymensi
 
 ## Block Size (bytes)  
 
-**celestia_consensus_block_size_bytes**  
+**cometbft_consensus_block_size_bytes**  
 
-Size of the last block in the Celestia consensus system, expressed in bytes. The block size is important for understanding the network's ability to handle transactions and data, as well as for assessing the efficiency of the consensus protocol in terms of block propagation and confirmation. 
+Size of the last block in the Dymension consensus system, expressed in bytes. The block size is important for understanding the network's ability to handle transactions and data, as well as for assessing the efficiency of the consensus protocol in terms of block propagation and confirmation. 
 
-Value: block size in bytes in the Celestia consensus system
+Value: block size in bytes in the Dymension consensus system
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/f8741bf7-3622-4c4e-a58e-fe6ef07eeb91)
 
@@ -177,9 +177,9 @@ Value: number representing the total power of all validators in the Dymension co
 
 ##  Consensus Validators  
 
-**celestia_consensus_validators{job="$job"}**
+**cometbft_consensus_validators{job="$job"}**
 
-Total number of active validators in the Celestia consensus
+Total number of active validators in the Dymension consensus
 
 Value: number of active validators
 
@@ -187,31 +187,31 @@ Value: number of active validators
 
 ##  Consensus Step Duration 
 
-**celestia_consensus_step_duration_seconds_bucket**
+**cometbft_consensus_step_duration_seconds_bucket**
 
-This metric provides detailed information on the time spent on each step of the consensus process in the Celestia system. 
+This metric provides detailed information on the time spent on each step of the consensus process in the Dymension system. 
 
-Value: histogram recording the time spent on each step of the consensus process in the Celestia system.
+Value: histogram recording the time spent on each step of the consensus process in the Dymension system.
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/a53e2e61-2c54-4e6b-b69f-eb5ca9fb5011)
 
 ##  Block Processing Time  
 
-**increase(celestia_state_block_processing_time_sum[$__rate_interval])**
+**increase(cometbft_state_block_processing_time_sum[$__rate_interval])**
 
-This metric records the time taken by Celestia to process a status block, from BeginBlock to EndBlock, measured in milliseconds. It represents the total duration of operations performed during the processing of the status block in the Celestia system. A high value may indicate slower processing, which could affect the ability of the network to maintain optimal performance.
+This metric records the time taken by Dymension to process a status block, from BeginBlock to EndBlock, measured in milliseconds. It represents the total duration of operations performed during the processing of the status block in the Dymension system. A high value may indicate slower processing, which could affect the ability of the network to maintain optimal performance.
 
-Value: time between BeginBlock and EndBlock in milliseconds in the Celestia system.
+Value: time between BeginBlock and EndBlock in milliseconds in the Dymension system.
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/ce7f059f-d9a6-4f82-8fb8-298e55afe546)
 
 ##  Interval between Consensus Blocks  
 
-**celestia_consensus_block_interval_seconds_bucket**
+**cometbft_consensus_block_interval_seconds_bucket**
 
-This metric records the time that elapses between the production of consecutive blocks in the Celestia system, measured in seconds. It helps to understand how often new blocks are being generated in the network. For example, if there is a bucket for intervals of up to 10 seconds, it means that most blocks are being produced in that time period or less. This can be useful for assessing the efficiency and speed of the block generation process in the network.
+This metric records the time that elapses between the production of consecutive blocks in the Dymension system, measured in seconds. It helps to understand how often new blocks are being generated in the network. For example, if there is a bucket for intervals of up to 10 seconds, it means that most blocks are being produced in that time period or less. This can be useful for assessing the efficiency and speed of the block generation process in the network.
 
-Value: Histogram recording the time between consecutive blocks in seconds in the Celestia system.
+Value: Histogram recording the time between consecutive blocks in seconds in the Dymension system.
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/0f5b8cdc-1d0e-48d8-b795-f5fb45a76673)
 
