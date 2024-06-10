@@ -35,9 +35,9 @@ _________________________________________________________________________
 
 ## SYNC STATUS 
 
-*celestia_consensus_fast_syncing* 
+*cometbft_consensus_fast_syncing* 
 
-Celestia Fast Synchronisation Metric: A metric that indicates whether a node in the Celestia consensus system is performing fast synchronisation. When this metric has a value of 1, it means that the node is performing fast synchronisation. Conversely, a value of 0 indicates that the node is not currently performing fast synchronisation. Fast synchronisation is a process in which a node can quickly acquire a copy of the blockchain by downloading compressed states and blocks from full nodes in the network, which speeds up the process of catching up with the network. 
+Fast Synchronisation Metric: A metric that indicates whether a node in the Dymension consensus system is performing fast synchronisation. When this metric has a value of 1, it means that the node is performing fast synchronisation. Conversely, a value of 0 indicates that the node is not currently performing fast synchronisation. Fast synchronisation is a process in which a node can quickly acquire a copy of the blockchain by downloading compressed states and blocks from full nodes in the network, which speeds up the process of catching up with the network. 
 
 Value: Either NO SYNC (not block syncing) or SYNC (syncing)
 
@@ -46,9 +46,9 @@ Value: Either NO SYNC (not block syncing) or SYNC (syncing)
 
 ## State Syncing 
 
-*celestia_consensus_state_syncing*
+*cometbft_consensus_state_syncing*
 
-Celestia State Synchronisation Metric: A metric that indicates whether a node in the Celestia consensus system is performing state synchronisation. When this metric has a value of 1, it means that the node is performing state synchronisation. Conversely, a value of 0 indicates that the node is not currently performing state synchronisation. State synchronisation is a process in which a node updates its internal state to reflect the current state of the blockchain, which may include verification of smart contracts, pending transactions, among other things. 
+Dymension State Synchronisation Metric: A metric that indicates whether a node in the Dymension consensus system is performing state synchronisation. When this metric has a value of 1, it means that the node is performing state synchronisation. Conversely, a value of 0 indicates that the node is not currently performing state synchronisation. State synchronisation is a process in which a node updates its internal state to reflect the current state of the blockchain, which may include verification of smart contracts, pending transactions, among other things. 
 
 Value: indicates whether a node is synchronising its state, FALSE is not currently performing state synchronisation, TRUE is performing state synchronisation. 
 
@@ -76,9 +76,9 @@ Value: numeric value in tokens representing voting power
 
 ## Connected peers & P2P peers  
 
-*celestia_p2p_peers*  
+*cometbft_p2p_peers*  
 
-Number of nodes connected as peers in Celestia's peer-to-peer (P2P) network system. Peers in a P2P network are nodes that communicate directly with each other to share information and maintain network integrity. This metric provides information about the health and activity of the network, as a higher number of peers can indicate a more robust and distributed network.  
+Number of nodes connected as peers in Dymension's peer-to-peer (P2P) network system. Peers in a P2P network are nodes that communicate directly with each other to share information and maintain network integrity. This metric provides information about the health and activity of the network, as a higher number of peers can indicate a more robust and distributed network.  
 
 Value: numeric value indicating the nodes connected as peers  
 
@@ -127,9 +127,9 @@ Value: block size in bytes in the Celestia consensus system
 
 ## Nº Transactions Committed  
 
-**celestia_consensus_num_txs** 
+**cometbft_consensus_num_txs** 
 
-Number of transactions included in the last block in the Celestia consensus system. This metric is crucial for understanding the activity and volume of transactions on the network at any given time. A higher number of transactions may indicate higher network activity, while a low or zero number may reflect periods of low network activity or congestion.
+Number of transactions included in the last block in the Dymension consensus system. This metric is crucial for understanding the activity and volume of transactions on the network at any given time. A higher number of transactions may indicate higher network activity, while a low or zero number may reflect periods of low network activity or congestion.
 
 Value: Numeric value representing the number of transactions included in the last block
 
@@ -147,11 +147,11 @@ Value: a numeric value representing the total number of transactions processed s
 
 ## Missing Validators Power  
 
-**celestia_consensus_missing_validators_power** 
+**cometbft_consensus_missing_validators_power** 
 
-Total power of missing validators in the Celestia consensus system. Missing validators refer to those who are not active or are not participating in the consensus process at a given time. This metric can provide information about the health and integrity of the network, as a significant missing validator power could indicate problems with the participation or availability of validator nodes in the network. 
+Total power of missing validators in the Dymension consensus system. Missing validators refer to those who are not active or are not participating in the consensus process at a given time. This metric can provide information about the health and integrity of the network, as a significant missing validator power could indicate problems with the participation or availability of validator nodes in the network. 
 
-Value: numeric value representing the total power of the missing validators in the Celestia consensus system. A low or zero value is desirable, as it suggests active and healthy participation of validators in the consensus process.
+Value: numeric value representing the total power of the missing validators in the Dymension consensus system. A low or zero value is desirable, as it suggests active and healthy participation of validators in the consensus process.
 
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/6102d610-0d26-4df8-b755-2fc969b34e49)
 
