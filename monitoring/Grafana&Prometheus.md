@@ -127,7 +127,7 @@ Now we can access the Prometheus interface by accessing the ip of the server whe
 ![image](https://github.com/Cumulo-pro/Dymension/assets/2853158/5ea61dd3-7fdd-4661-9ba1-7306d93607f6)
 
 You can start querying Prometheus in the Graph section, using the Dymension metrics functions, which can be found here:
-[Grafana Consensus Metrics](https://github.com/Cumulo-pro/Celestia-monitoring/blob/main/grafana_consensus%20/grafana_consensus_metrics.md)
+[Grafana Consensus Metrics](https://github.com/Cumulo-pro/Dymension/blob/main/monitoring/dymension_metrics.md)
 
 **(ip nodo Prometheus):9090/graph**   
 ![image](https://github.com/Cumulo-pro/Dymension/assets/2853158/02204ec3-9523-44d7-87bd-c7d67fddf11c)
