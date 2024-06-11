@@ -188,7 +188,7 @@ The next step will ask you to change your password:
 
 After changing your password, log in to the Grafana website to download a dashboard in JSON format.
 You can search or download our Dymension Validator metrics by Cumulo dashboard to continue this tutorial :-)
-[Grafana Consensus Dashboard](https://grafana.com/grafana/dashboards/21271-dymension-validator/)
+[Grafana Dymension Dashboard](https://grafana.com/grafana/dashboards/21271-dymension-validator/)
 
 ![image](https://github.com/Cumulo-pro/Dymension/assets/2853158/ebb0d4a0-7990-4b68-adf8-55e8cbad5ed6)
 
