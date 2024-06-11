@@ -188,9 +188,9 @@ The next step will ask you to change your password:
 
 After changing your password, log in to the Grafana website to download a dashboard in JSON format.
 You can search or download our Dymension Validator metrics by Cumulo dashboard to continue this tutorial :-)
-[Grafana Consensus Dashboard](https://grafana.com/grafana/dashboards/21116-celestia-consensus-validator-node/)
+[Grafana Consensus Dashboard](https://grafana.com/grafana/dashboards/21271-dymension-validator/)
 
-![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/4874894b-a4d2-4090-a270-64aa6c3ca51b)
+![image](https://github.com/Cumulo-pro/Dymension/assets/2853158/ebb0d4a0-7990-4b68-adf8-55e8cbad5ed6)
 
 Go back to the Grafana page of your server and click on Configuration and then Data Sources.  
 ![image](https://github.com/Cumulo-pro/Celestia-monitoring/assets/2853158/b2a18e7e-326b-4d63-ae54-7f527119877d)
