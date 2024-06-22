@@ -1,3 +1,4 @@
 # Introduction  
 
-This document provides a comprehensive guide on implementing a custom metrics monitoring system for a Dymension node using Prometheus.
+The dymension-monitoring repository provides tools and guides for monitoring and analyzing metrics related to Dymension blockchain node. It includes:
+
